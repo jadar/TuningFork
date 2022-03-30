@@ -23,11 +23,10 @@
 //  IN THE SOFTWARE.
 //
 
-
 import XCTest
 @testable import TuningFork
 
-class TuningForkTests: XCTestCase {
+final class TuningForkTests: XCTestCase {
     
     func testOutput() {
         let output = Tuner.newOutput(440, 1.0)
