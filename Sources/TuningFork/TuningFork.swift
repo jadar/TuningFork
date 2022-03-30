@@ -171,6 +171,7 @@ private let frequencies: [Double] = [
                 delegate.tunerDidUpdate(self, output: output)
             }
         })
+        self.timer = timer
         
         timer.start()
     }
